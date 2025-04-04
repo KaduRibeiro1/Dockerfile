@@ -4,7 +4,7 @@ WORKDIR srv/www/
 
 RUN git clone https://github.com/GabrielSousaSPTech/beyond_web.git srv/www/
 
-WORKDIR srv/www/beyond_web/
+WORKDIR srv/www/beyond_web/web-data-viz/
 
 RUN npm install
 
